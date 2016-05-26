@@ -1,0 +1,9 @@
+name: HeightMapper
+version: 1.0
+description: Plugin for mapping height information for a specific world.
+author: Shortninja
+website: www.shortninja.net
+main: net.shortninja.heightmapper.HeightMapper
+commands:
+  heightmap:
+    description: Maps height information for a specific world.

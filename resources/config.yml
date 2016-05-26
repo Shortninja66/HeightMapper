@@ -1,0 +1,38 @@
+# Made with love by Shortninja - ♥
+
+############################################################
+# +------------------------------------------------------+ #
+# |                       General                        | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The permission required in order to map world heights.
+permission: "heightmapper.use"
+
+# Whether or not percentage updates will be sent while mapping is occurring.
+show-updates: true
+
+# The default seed that will be used for randomizing locations during iteration.
+# This seed should allow for rerunning tests with the same randomization every time.
+# Be sure to change it if you do not want to have duplicate height mappings.
+seed: 42
+
+# The default amount of random locations that will be iterated through for mapping.
+iterations: 1000
+
+# The default highest x-value that will in a location randomization.
+max-x: 1000
+
+# The default lowest x-value that will in a location randomization.
+min-x: -1000
+
+# The default highest z-value that will in a location randomization.
+max-z: 1000
+
+# The default lowest z-value that will in a location randomization.
+min-z: -1000
+
+# The interval at which the heightmapper will check a new location.
+# Lower values directly impact your server performance negatively.
+# 20 = one second; 10 = half second; 5 = quarter second; etc.
+interval: 5
