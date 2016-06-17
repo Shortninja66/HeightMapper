@@ -90,7 +90,7 @@ public class HeightMapper extends JavaPlugin
 			}
 			
 			/*
-			 * I'm cringing as much as you, trust me. Tell me if you find a better way.
+			 * I'm cringing as much as you, trust me
 			 */
 			if(args.length >= 1)
 			{
@@ -102,22 +102,34 @@ public class HeightMapper extends JavaPlugin
 					message.sendMessage(sender, "&bHeightmapping for &7" + mapFactory.getWorldName() + " &bhas been stopped!", true);
 					return true;
 				}else world = Bukkit.getWorld(args[0]);
-			}else if(args.length >= 2)
+			}
+			
+			if(args.length >= 2)
 			{
 				seed = Long.parseLong(args[1]);
-			}else if(args.length >= 3)
+			}
+			
+			if(args.length >= 3)
 			{
 				iterations = Integer.parseInt(args[2]);
-			}else if(args.length >= 4)
+			}
+			
+			if(args.length >= 4)
 			{
 				maxX = Integer.parseInt(args[3]);
-			}else if(args.length >= 5)
+			}
+			
+			if(args.length >= 5)
 			{
 				minX = Integer.parseInt(args[4]);
-			}else if(args.length >= 6)
+			}
+			
+			if(args.length >= 6)
 			{
 				maxZ = Integer.parseInt(args[5]);
-			}else if(args.length >= 7)
+			}
+			
+			if(args.length >= 7)
 			{
 				minZ = Integer.parseInt(args[6]);
 			}
